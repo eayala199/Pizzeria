@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header nav ul li{
+    margin: 20px;
+    color: white;
+    padding-top: 25px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header img{
+    position: absolute;
+    padding-top: 10px;
+}
+
+header {
+    height: 100px;
+    background-color: #222222;
+    
+}
+
+footer {
+    height: 150px;
+    background-color: #222222;
+    margin-bottom: 0;
+    position: relative;
+    
+}
+
+main{
+    height: 550px;
+
+}
+
+footer img{
+    position: absolute;
+    right: 45px;
+    bottom: 35px;
+}
+
+footer nav ul li {
+    margin-top: 11px;
+    color: white;
+    padding-top: 3px;
+    list-style-type: none;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.caja1{
+    height: 350px;
+    width: 490px;
+    background-image: url("../img/delivery.jpg");
+    background-color: #cccccc;
+    
+
+}
+
+.caja2 {
+    height: 350px;
+    width: 490px;
+    position: relative;
+}
+
+.caja2 h3 {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.caja2 ol {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 75px;
+}
+.caja2 ol p {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caja2 ol li{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.caja2 img {
+    position: absolute;
+    height: 129px;
+    width: 92px;
+    right: 74px;
+    bottom: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main div h2{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 119px 302px 20px;
+}
+
+span {
+    color: white;
+}
